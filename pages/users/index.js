@@ -40,7 +40,7 @@ function Users({ users }) {
 }
 
 export default Users;
-
+//SSG------------> Server Side Gender feature in Next.js
 export async function getServerSideProps() {
   try {
     const res = await axios.get("https://jsonplaceholder.typicode.com/users");

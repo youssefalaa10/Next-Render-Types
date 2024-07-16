@@ -11,7 +11,7 @@ function Tasks({ tasks }) {
           <li
             key={task.id}
             className={`p-4 rounded shadow cursor-pointer ${
-              task.completed ? "bg-green-100" : "bg-red-100"
+              task.completed ? "bg-green-100" : "bg-gray-300"
             }`}
           >
             <Link href={`/tasks/${task.id}`}>
